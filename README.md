@@ -77,5 +77,3 @@ In conclusion, this project provided me with valuable experience in using **HTML
 - Frontend Mentor - [@itlucdev](https://www.frontendmentor.io/profile/ITLUCDEV)
 - Discord - [@lalvarezweb#1583]
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
