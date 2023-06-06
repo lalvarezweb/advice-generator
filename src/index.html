@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="../dist/output.css" rel="stylesheet">
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+
+<body class="bg-[#1f2632]">
+  <main 
+    class="flex flex-col h-screen justify-center md:mx-52 lg:mx-64 xl:mx-[29rem] 2xl:mx-[28rem] items-center mx-5"
+    >
+    <section
+    class="flex flex-col justify-center items-center mx-5 bg-[#323a49] w-full h-auto rounded-xl"
+    >
+      <header>
+        <p
+        class="text-[#52ffa8] text-xs font-bold text-center uppercase pt-10 tracking-[0.5em] font-manrope"
+        >Advice #<span id="id-advice">117</span>
+        </p>
+      </header>
+      <div>
+        <h1 id="advice"
+        class="text-[#cee3e9] text-[28px] pt-5 px-7 text-center font-bold font-manrope"
+        >"It is easy to sit up and take notice, what's difficult is getting up and taking action."</h1>
+      </div>
+      <footer class="flex flex-col items-center justify-center">
+        <img src="../images/pattern-divider-mobile.svg" alt="Divider"
+        class="px-10 pb-16 pt-8">
+      </footer>
+    </section>
+    <button id="btn-advice"
+    class=
+    "flex items-center justify-center w-14 h-14 bg-[#52ffa8] -mt-7 rounded-full hover:drop-shadow-[0_0_10px_#52ffa8] focus:drop-shadow-[0_0_10px_#52ffa8]"
+    >
+    <img src="../images/icon-dice.svg" alt="Icon Dice" class="w-7 h-7">
+    </button>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
